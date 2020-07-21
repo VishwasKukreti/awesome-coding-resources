@@ -1,0 +1,1 @@
+pd.options.display.max_columns = None #To increase the number of displayed columns.
