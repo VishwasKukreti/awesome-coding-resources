@@ -1,2 +1,5 @@
 pd.options.display.max_columns = None #To increase the number of displayed columns.
 df.describe(include = 'all') #basic statistics of cols
+sorted(dictionary.items(), key=lambda x: x[1], reverse=True) #sort dictionary by key
+df["A"].isna().sum() #Count number of null values
+del df['A'] #delete column in pandas
